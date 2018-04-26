@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm"></div>
+            <h3>
+                <strong>About You</strong>
+            </h3>
+            <h4>Name (Required)</h4>
+            <input type="text" id="name" class="form-control" required>
+
+            <h4>Link to Photo Image (Required)</h4>
+            <input type="text" id="photo" class="form-control" required>
+
+            <hr>
+            <h2>Survey Questions</h2>
+            <h3 class="font-weight-bold">Question One</h3>
+            <h4>You should always tell the truth?</h4>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <select class="form-control" id="q1">
+                        <option>Select an option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4 (Strongly Agree)</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm"></div>
+
+        </div>
+        <h3 class="font-weight-bold">Question Two</h3>
+        <h4>Do you believe in ghosts?</h4>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <select class="form-control" id="q2">
+                    <option>Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4 (Strongly Agree)</option>
+                </select>
+
+            </div>
+
+
+            <h3 class="font-weight-bold">Question Three</h3>
+            <h4>Do you like to go out to eat?</h4>
+            <div class="col-sm">
+                <div class="form-group">
+                    <select class="form-control" id="q3">
+                        <option>Select an option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4 (Strongly Agree)</option>
+                    </select>
+
+                </div>
+
+                <h3 class="font-weight-bold">Question Four</h3>
+                <h4>Do you like dessert?</h4>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <select class="form-control" id="q4">
+                            <option>Select an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4 (Strongly Agree)</option>
+                        </select>
+
+                    </div>
+
+                    <h3 class="font-weight-bold">Question Five</h3>
+                    <h4>Do you like to go on vacation?</h4>
+                    <div class="col-sm">
+                        <div class="form-group">
+                            <select class="form-control" id="q5">
+                                <option>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4 (Strongly Agree)</option>
+                            </select>
+
+                        </div>
+
+                        <h3 class="font-weight-bold">Question Six</h3>
+                        <h4>Do you like to dance?</h4>
+                        <div class="col-sm">
+                            <div class="form-group">
+                                <select class="form-control" id="q6">
+                                    <option>Select an option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4 (Strongly Agree)</option>
+                                </select>
+
+                            </div>
+
+                            <h3 class="font-weight-bold">Question Seven</h3>
+                            <h4>Do you like to excercise?</h4>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <select class="form-control" id="q7">
+                                        <option>Select an option</option>
+                                        <option value="1">1 (Strongly Disagree)</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4 (Strongly Agree)</option>
+                                    </select>
+
+                                </div>
+
+                                <h3 class="font-weight-bold">Question Eight</h3>
+                                <h4>Do you like to go shopping?</h4>
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <select class="form-control" id="q8">
+                                            <option>Select an option</option>
+                                            <option value="1">1 (Strongly Disagree)</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4 (Strongly Agree)</option>
+                                        </select>
+
+                                    </div>
+
+                                    <h3 class="font-weight-bold">Question Nine</h3>
+                                    <h4>Can you curl your tongue?</h4>
+                                    <div class="col-sm">
+                                        <div class="form-group">
+                                            <select class="form-control" id="q9">
+                                                <option>Select an option</option>
+                                                <option value="1">1 (Strongly Disagree)</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4 (Strongly Agree)</option>
+                                            </select>
+
+                                        </div>
+
+                                        <h3 class="font-weight-bold">Question Ten</h3>
+                                        <h4>Do you like the outdoors?</h4>
+                                        <div class="col-sm">
+                                            <div class="form-group">
+                                                <select class="form-control" id="q10">
+                                                    <option>Select an option</option>
+                                                    <option value="1">1 (Strongly Disagree)</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4 (Strongly Agree)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Submit Button-->
+                            <button type="button" class="btn btn-info btn-lg btn-block">Submit Survey</button>
+                            <!--Footer-->
+
+
+                            <!--Modal-->
+                            <div id="info-modal">
+                                <div class="modal" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Your Best Match</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Meet Your New BFF!</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary">Close</button>
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Javascript code-->
+                            <script type="text/javascript">
+                                $(".submit").on("click", function (event) {
+                                    event.preventDefault();
+
+                                    function validateForm() {
+                                        var isValid = true;
+                                        $(".form-control").each(function () {
+                                            if ($(this).val() === "") {
+                                                isValid = false;
+                                            }
+                                        });
+
+                                        $(".form-group").each(function () {
+
+                                            if ($(this).val() === "") {
+                                                isValid = false;
+                                            }
+                                        });
+                                        return isValid;
+                                    }
+                                    if (validateForm()) {
+                                        var userData = {
+                                            name: $("#name").val(),
+                                            photo: $("#photo").val(),
+                                            scores: [
+                                                $("#q1").val(),
+                                                $("#q2").val(),
+                                                $("#q3").val(),
+                                                $("#q4").val(),
+                                                $("#q5").val(),
+                                                $("#q6").val(),
+                                                $("#q7").val(),
+                                                $("#q8").val(),
+                                                $("#q9").val(),
+                                                $("#q10").val()
+                                            ]
+                                        };
+                                        $.post(".api/friends", userData, function (data) {
+                                            $("#match-name").text(data.name);
+                                            $("#match-img").attr("src, data.photo");
+
+                                            $("#info-modal").modal("toggle");
+
+                                        });
+                                    } else {
+                                        alert("Please fill out all fields before hitting Submit Survey button.");
+                                    }
+                                });
+
+
+
+                            </script>
+</body>
+
+</html>
